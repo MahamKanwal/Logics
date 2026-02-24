@@ -69,9 +69,34 @@
 // "i" → match → acc = 4
 // Output: 4
 
+// check triangle type based on the lengths of its sides
+// const checkTriangleType = (a,b,c) => {
+//     if ( a == b && b == c ) return "equilateral";
+//     if ( a == b || b == c || c == a) return "isoceles";
+//     return "scalene";
+// };
+// console.log(checkTriangleType(3,3,3));
+// console.log(checkTriangleType(4,3,4));
+// console.log(checkTriangleType(5,8,6));
+
 // sort an array in ascending order
 // const ascendingSort = (arr) => {
 // return arr.sort((a,b) => a - b)
 // }
 // console.log(ascendingSort([9,6,4,5,2,8]));
+
+// check the word is palindrome or not
+// const isPalindrome = (str) => {
+//     str = str.toLowerCase().replace(/\W/g,""); //non word ko empty space sy replace kar do
+//     let r_str = str.split("").reverse().join("");
+//   console.log(r_str);
+//   return str === r_str ? true : false;
+// }
+// console.log(isPalindrome("A man ,A plan, text"));
+
+// const palindromeWords = (word) => {
+// let ulta = word.split("").reverse().join("");
+// console.log(ulta == word);
+// }
+// palindromeWords("Maham");
 
