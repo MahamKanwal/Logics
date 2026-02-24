@@ -100,3 +100,46 @@
 // }
 // palindromeWords("Maham");
 
+// find the max number in array
+// const findMax = (arr) => {
+//     return Math.max(...arr);  //array ko number ma convert krne k liye spread operator use karien ge agr spread operator use nahi arien ge to Nan aaye ga
+// }
+// console.log(findMax([1,5,3,9,2]));
+// console.log(findMax([-10,-5,-3,-9,-2]));
+// console.log(findMax([5]));
+
+// factorial finder
+// const factorial = (num) => {
+//     let fact = 1;
+//     for(let i = 1; i <= num; i++){
+//      fact = fact * i;
+//     }
+//     return fact;
+// }
+// console.log(factorial(5)); 5*4*3*2*1 //120 output
+// | i | fact = fact * i |
+// | - | --------------- |
+// | 1 | 1 × 1 = 1       |
+// | 2 | 1 × 2 = 2       |
+// | 3 | 2 × 3 = 6       |
+// | 4 | 6 × 4 = 24      |
+// | 5 | 24 × 5 = 120    |
+
+// Calculate the average
+// const calAver = (arr) => {
+//     let total = arr.reduce((acc, curr) => acc+curr ,0);
+//     console.log(total);
+//     return total / arr.length; //average formula
+// }
+// console.log(calAver([5,10,2,8])); //25 and average 6.25
+
+// check 2 arrays are equal
+// const arrEqual = (arr1, arr2) => {
+//     if (arr1.length !== arr2.length) {
+//         return false;
+//     }
+//  return arr1.every((currVal,idx) => currVal === arr2[idx])
+// }
+// console.log(arrEqual([1,2,3],[1,2,3])); //true
+// console.log(arrEqual([1,2,3],[1,2,4])); //false
+// console.log(arrEqual([],[])); //true
