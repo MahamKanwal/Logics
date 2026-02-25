@@ -143,3 +143,17 @@
 // console.log(arrEqual([1,2,3],[1,2,3])); //true
 // console.log(arrEqual([1,2,3],[1,2,4])); //false
 // console.log(arrEqual([],[])); //true
+
+// sum of Digits in number
+// const sumOfDigits = (num) => {
+//     let arr = Array.from(String(num), Number); 
+//     let arr = String(num).split("").map(Number); //pehly number String ko array me convert karo aur har element ko number me change karo
+//    return arr.reduce((acc, curr) => acc + curr, 0)
+// }
+// console.log(sumOfDigits(654321)); //21
+
+// let num =1234;
+// let arr = Array.from(String(num),Number);
+// let arr = String(num).split("").map(Number);
+// console.log(arr);
+
